@@ -13,3 +13,4 @@ D:\Projekt zaliczeniowy\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarR
 D:\Projekt zaliczeniowy\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\refint\CarRental.Infrastructure.dll
 D:\Projekt zaliczeniowy\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.pdb
 D:\Projekt zaliczeniowy\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\ref\CarRental.Infrastructure.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.sourcelink.json

@@ -40,3 +40,16 @@ D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\refint\CarRenta
 D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.pdb
 D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.genruntimeconfig.cache
 D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\ref\CarRental.API.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.sourcelink.json
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

@@ -9,3 +9,5 @@ D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Do
 D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\refint\CarRental.Domain.dll
 D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.pdb
 D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\ref\CarRental.Domain.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.sourcelink.json
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.csproj.AssemblyReference.cache

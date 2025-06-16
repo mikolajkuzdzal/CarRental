@@ -1,25 +1,43 @@
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
+using CarRental.Infrastructure.Persistence;
+using CarRental.Application.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddRazorPages();
+// Dodaj DbContext EF Core (InMemory)
+builder.Services.AddDbContext<CarRentalDbContext>(options =>
+    options.UseInMemoryDatabase("CarRentalDb"));
+
+// Rejestracja generycznego repozytorium
+builder.Services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
+
+// Dodaj kontrolery
+builder.Services.AddControllers();
+
+// Dodaj Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CarRental API", Version = "v1" });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+// Middleware developerski i Swagger
+if (app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
 app.UseAuthorization();
 
-app.MapRazorPages();
+// Mapowanie kontrolerów
+app.MapControllers();
 
 app.Run();

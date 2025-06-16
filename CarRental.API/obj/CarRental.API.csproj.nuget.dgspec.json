@@ -60,9 +60,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -118,6 +126,9 @@
             "projectReferences": {
               "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj": {
                 "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj"
+              },
+              "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj": {
+                "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj"
               }
             }
           }
@@ -202,6 +213,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.24, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

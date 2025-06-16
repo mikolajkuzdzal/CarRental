@@ -2,9 +2,9 @@
 
 public class Customer
 {
-    public Guid Id { get; set; }
-    public string FullName { get; set; } = null!;
-    public string Email { get; set; } = null!;
-
+    public int Id { get; set; }
+    public string FirstName { get; set; } = default!;
+    public string LastName { get; set; } = default!;
+    public string Email { get; set; } = default!;
     public ICollection<Rental> Rentals { get; set; } = new List<Rental>();
 }

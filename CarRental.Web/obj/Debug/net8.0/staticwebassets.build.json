@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tRxS9CBqo3vOeltgBvOPycOOF50xL+dwQlA2/n85Bj0=",
+  "Hash": "t8OTp54JZP818vcIsjqRBmL34EFBMpdmVfu79QXyKpU=",
   "Source": "CarRental.Web",
   "BasePath": "_content/CarRental.Web",
   "Mode": "Default",
@@ -1343,7 +1343,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:30:22 GMT"
+          "Value": "Mon, 16 Jun 2025 20:15:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1380,7 +1380,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:30:22 GMT"
+          "Value": "Mon, 16 Jun 2025 20:15:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1417,7 +1417,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:30:22 GMT"
+          "Value": "Mon, 16 Jun 2025 20:15:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1462,7 +1462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 15:30:22 GMT"
+          "Value": "Mon, 16 Jun 2025 20:15:24 GMT"
         },
         {
           "Name": "Cache-Control",
