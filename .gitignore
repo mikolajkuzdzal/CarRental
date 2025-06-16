@@ -1,0 +1,12 @@
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+/Film3/
+/cs-lab01-GradeBookApplication/
+/cs-lab03-Pudelko/
+/mikolajkluzdal/RentingApp/
+/mikolajkluzdal/RentingAppFrontend/
