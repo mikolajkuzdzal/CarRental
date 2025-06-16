@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Pa9AykVdi5P5fR9zUlrkY1opxgg+NIs+4+Fl5RauAhM=",
+  "Source": "CarRental.API",
+  "BasePath": "_content/CarRental.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

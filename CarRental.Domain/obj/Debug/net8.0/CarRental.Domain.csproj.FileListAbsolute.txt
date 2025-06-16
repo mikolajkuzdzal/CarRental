@@ -1,0 +1,11 @@
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\bin\Debug\net8.0\CarRental.Domain.deps.json
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\bin\Debug\net8.0\CarRental.Domain.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\bin\Debug\net8.0\CarRental.Domain.pdb
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.AssemblyInfoInputs.cache
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.AssemblyInfo.cs
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.csproj.CoreCompileInputs.cache
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\refint\CarRental.Domain.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.pdb
+D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\ref\CarRental.Domain.dll

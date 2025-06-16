@@ -1,0 +1,15 @@
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\bin\Debug\net8.0\CarRental.Application.deps.json
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\bin\Debug\net8.0\CarRental.Application.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\bin\Debug\net8.0\CarRental.Application.pdb
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\bin\Debug\net8.0\CarRental.Domain.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\bin\Debug\net8.0\CarRental.Domain.pdb
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\CarRental.Application.csproj.AssemblyReference.cache
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\CarRental.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\CarRental.Application.AssemblyInfoInputs.cache
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\CarRental.Application.AssemblyInfo.cs
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\CarRental.Application.csproj.CoreCompileInputs.cache
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\CarRenta.87FDFFE6.Up2Date
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\CarRental.Application.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\refint\CarRental.Application.dll
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\CarRental.Application.pdb
+D:\Projekt zaliczeniowy\CarRental\CarRental.Application\obj\Debug\net8.0\ref\CarRental.Application.dll
