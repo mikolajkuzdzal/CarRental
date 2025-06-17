@@ -1,33 +1,32 @@
 ﻿using CarRental.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Reflection.Emit;
 
 namespace CarRental.Infrastructure.Persistence
 {
     public class CarRentalDbContext : DbContext
     {
-        public CarRentalDbContext(DbContextOptions<CarRentalDbContext> options) : base(options)
+        public CarRentalDbContext(DbContextOptions<CarRentalDbContext> options)
+            : base(options)
         {
         }
 
-        public DbSet<Customer> Customers { get; set; }
-        public DbSet<Car> Cars { get; set; }
-        public DbSet<Rental> Rentals { get; set; }
+        public DbSet<Customer> Customers { get; set; } = null!;
+        public DbSet<Car> Cars { get; set; } = null!;
+        public DbSet<Rental> Rentals { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Customer>()
-                .HasMany(c => c.Rentals)
-                .WithOne(r => r.Customer)
+            modelBuilder.Entity<Rental>()
+                .HasOne(r => r.Customer)
+                .WithMany(c => c.Rentals)
                 .HasForeignKey(r => r.CustomerId);
 
-            modelBuilder.Entity<Car>()
-                .HasMany(c => c.Rentals)
-                .WithOne(r => r.Car)
+            modelBuilder.Entity<Rental>()
+                .HasOne(r => r.Car)
+                .WithMany(c => c.Rentals)
                 .HasForeignKey(r => r.CarId);
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

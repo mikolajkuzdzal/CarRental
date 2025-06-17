@@ -1,10 +1,14 @@
-﻿namespace CarRental.Domain.Entities;
+﻿using System.Collections.Generic;
 
-public class Car
+namespace CarRental.Domain.Entities
 {
-    public int Id { get; set; }
-    public string Model { get; set; } = default!;
-    public string Brand { get; set; } = default!;
-    public int Year { get; set; }
-    public ICollection<Rental> Rentals { get; set; } = new List<Rental>();
+    public class Car
+    {
+        public int Id { get; set; }
+        public string Make { get; set; } = string.Empty;
+        public string Model { get; set; } = string.Empty;
+        public int Year { get; set; }
+        public string Brand { get; set; } = string.Empty;
+        public ICollection<Rental>? Rentals { get; set; }
+    }
 }

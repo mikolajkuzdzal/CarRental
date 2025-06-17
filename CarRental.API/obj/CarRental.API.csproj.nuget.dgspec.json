@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.API\\CarRental.API.csproj": {}
+    "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.API\\CarRental.API.csproj": {}
   },
   "projects": {
-    "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.API\\CarRental.API.csproj": {
+    "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.API\\CarRental.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.API\\CarRental.API.csproj",
+        "projectUniqueName": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.API\\CarRental.API.csproj",
         "projectName": "CarRental.API",
-        "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.API\\CarRental.API.csproj",
-        "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.API\\obj\\",
+        "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.API\\CarRental.API.csproj",
+        "packagesPath": "C:\\Users\\Mikołaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mikołaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,20 +26,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Application\\CarRental.Application.csproj": {
-                "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Application\\CarRental.Application.csproj"
+              "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Application\\CarRental.Application.csproj": {
+                "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Application\\CarRental.Application.csproj"
               },
-              "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj": {
-                "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj"
+              "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj"
               },
-              "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj": {
-                "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj"
+              "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj"
               }
             }
           }
@@ -53,24 +54,27 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -92,24 +96,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Application\\CarRental.Application.csproj": {
+    "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Application\\CarRental.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Application\\CarRental.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Application\\CarRental.Application.csproj",
         "projectName": "CarRental.Application",
-        "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Application\\CarRental.Application.csproj",
-        "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Application\\obj\\",
+        "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Application\\CarRental.Application.csproj",
+        "packagesPath": "C:\\Users\\Mikołaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mikołaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -118,17 +122,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj": {
-                "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj"
-              },
-              "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj": {
-                "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj"
+              "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj"
               }
             }
           }
@@ -142,8 +144,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -164,24 +165,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj": {
+    "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj",
         "projectName": "CarRental.Domain",
-        "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj",
-        "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mikołaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mikołaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -190,6 +191,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -207,38 +209,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.25, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[9.0.6, )"
-            },
-            "Microsoft.OpenApi": {
-              "target": "Package",
-              "version": "[1.6.24, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[9.0.1, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[6.15.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -255,24 +230,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj": {
+    "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj",
         "projectName": "CarRental.Infrastructure",
-        "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Infrastructure\\CarRental.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Mikołaj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mikołaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -281,14 +256,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj": {
-                "projectPath": "D:\\Projekt zaliczeniowy\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj"
+              "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Application\\CarRental.Application.csproj": {
+                "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Application\\CarRental.Application.csproj"
+              },
+              "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mikołaj\\Source\\Repos\\mikolajkuzdzal\\CarRental\\CarRental.Domain\\CarRental.Domain.csproj"
               }
             }
           }
@@ -302,12 +281,25 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -324,7 +316,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

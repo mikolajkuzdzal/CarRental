@@ -14,3 +14,21 @@ D:\Projekt zaliczeniowy\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\refi
 D:\Projekt zaliczeniowy\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.pdb
 D:\Projekt zaliczeniowy\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\ref\CarRental.Infrastructure.dll
 D:\Projekt zaliczeniowy\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.sourcelink.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Infrastructure.deps.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Infrastructure.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Infrastructure.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Application.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Domain.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Application.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\bin\Debug\net8.0\CarRental.Domain.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.AssemblyInfo.cs
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.sourcelink.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRenta.CD2C48B0.Up2Date
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\refint\CarRental.Infrastructure.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\CarRental.Infrastructure.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Infrastructure\obj\Debug\net8.0\ref\CarRental.Infrastructure.dll

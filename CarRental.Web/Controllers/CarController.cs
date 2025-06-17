@@ -1,56 +1,73 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using CarRental.Application.Interfaces;
 using CarRental.Domain.Entities;
 
-namespace CarRental.Web.Controllers;
-
-[ApiController]
-[Route("api/[controller]")]
-public class CarController : ControllerBase
+namespace CarRental.Web.Controllers
 {
-    private static readonly List<Car> Cars = new();
-
-    [HttpGet]
-    public ActionResult<IEnumerable<Car>> GetAll()
+    [Authorize] // 🔐 Wymaga uwierzytelnienia JWT
+    [ApiController]
+    [Route("api/[controller]")]
+    public class CarController : ControllerBase
     {
-        return Ok(Cars);
-    }
+        private readonly ICarRepository _carRepository;
 
-    [HttpGet("{id}")]
-    public ActionResult<Car> Get(int id)
-    {
-        var car = Cars.FirstOrDefault(c => c.Id == id);
-        if (car is null) return NotFound();
-        return Ok(car);
-    }
+        public CarController(ICarRepository carRepository)
+        {
+            _carRepository = carRepository;
+        }
 
-    [HttpPost]
-    public ActionResult<Car> Create(Car car)
-    {
-        car.Id = Cars.Count + 1;
-        Cars.Add(car);
-        return CreatedAtAction(nameof(Get), new { id = car.Id }, car);
-    }
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var cars = _carRepository.GetAll();
+            return Ok(cars);
+        }
 
-    [HttpPut("{id}")]
-    public IActionResult Update(int id, Car car)
-    {
-        var existing = Cars.FirstOrDefault(c => c.Id == id);
-        if (existing is null) return NotFound();
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            var car = _carRepository.Get(id);
+            if (car == null)
+                return NotFound();
+            return Ok(car);
+        }
 
-        existing.Brand = car.Brand;
-        existing.Model = car.Model;
-        existing.Year = car.Year;
+        [Authorize(Roles = "Admin")] // Tylko Admin może tworzyć
+        [HttpPost]
+        public IActionResult Create([FromBody] Car car)
+        {
+            _carRepository.Add(car);
+            return CreatedAtAction(nameof(Get), new { id = car.Id }, car);
+        }
 
-        return NoContent();
-    }
+        [Authorize(Roles = "Admin")] // Tylko Admin może edytować
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, [FromBody] Car updatedCar)
+        {
+            var existingCar = _carRepository.Get(id);
+            if (existingCar == null)
+                return NotFound();
 
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
-    {
-        var car = Cars.FirstOrDefault(c => c.Id == id);
-        if (car is null) return NotFound();
+            existingCar.Make = updatedCar.Make;
+            existingCar.Model = updatedCar.Model;
+            existingCar.Year = updatedCar.Year;
+            existingCar.Brand = updatedCar.Brand;
 
-        Cars.Remove(car);
-        return NoContent();
+            _carRepository.Update(existingCar);
+            return NoContent();
+        }
+
+        [Authorize(Roles = "Admin")] // Tylko Admin może usuwać
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var existingCar = _carRepository.Get(id);
+            if (existingCar == null)
+                return NotFound();
+
+            _carRepository.Delete(id);
+            return NoContent();
+        }
     }
 }

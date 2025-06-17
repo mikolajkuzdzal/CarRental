@@ -1,9 +1,14 @@
-﻿namespace CarRental.Application.Interfaces;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
-public interface IRepository<T>
+namespace CarRental.Application.Interfaces
 {
-    IEnumerable<T> GetAll();
-    T? Get(int id);
-    void Add(T entity);
-    void Delete(int id);
+    public interface IRepository<T> where T : class
+    {
+        Task<IEnumerable<T>> GetAllAsync();
+        Task<T?> GetByIdAsync(int id);
+        Task AddAsync(T entity);
+        Task UpdateAsync(T entity);
+        Task DeleteAsync(T entity);
+    }
 }

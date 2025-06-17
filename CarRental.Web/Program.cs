@@ -1,43 +1,29 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
-using Microsoft.EntityFrameworkCore;
-using CarRental.Infrastructure.Persistence;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using CarRental.Application.Interfaces;
+using CarRental.Infrastructure.Repositories;
+using CarRental.Infrastructure.Mapping;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Dodaj DbContext EF Core (InMemory)
-builder.Services.AddDbContext<CarRentalDbContext>(options =>
-    options.UseInMemoryDatabase("CarRentalDb"));
-
-// Rejestracja generycznego repozytorium
+// repozytoria
 builder.Services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
 
-// Dodaj kontrolery
+// AutoMapper
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+// JWT
+builder.Services
+    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        // Twoja konfiguracja tokenów
+    });
+builder.Services.AddAuthorization();
+
 builder.Services.AddControllers();
-
-// Dodaj Swagger
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "CarRental API", Version = "v1" });
-});
-
 var app = builder.Build();
 
-// Middleware developerski i Swagger
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
+app.UseAuthentication();
 app.UseAuthorization();
-
-// Mapowanie kontrolerów
 app.MapControllers();
-
 app.Run();

@@ -1,53 +1,94 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using CarRental.Domain.Entities;
+﻿using AutoMapper;                                  // dla IMapper
+using CarRental.Application.DTOs;                  // Twoje DTO
+using CarRental.Application.Interfaces;            // IRepository<T>
+using CarRental.Domain.Entities;                   // Customer, Rental
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-namespace CarRental.Web.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-public class RentalController : ControllerBase
+namespace CarRental.Web.Controllers
 {
-    private static readonly List<Rental> Rentals = new();
-    private static readonly List<Customer> Customers = new(); // temp
-    private static readonly List<Car> Cars = new(); // temp
-
-    [HttpGet]
-    public ActionResult<IEnumerable<Rental>> GetAll()
+    [Route("api/[controller]")]
+    [ApiController]
+    public class RentalController : ControllerBase
     {
-        return Ok(Rentals);
-    }
+        private readonly IRepository<Rental> _rentalRepo;
+        private readonly IRepository<Car> _carRepo;
+        private readonly IRepository<Customer> _customerRepo;
+        private readonly IMapper _mapper;
 
-    [HttpGet("{id}")]
-    public ActionResult<Rental> Get(int id)
-    {
-        var rental = Rentals.FirstOrDefault(r => r.Id == id);
-        if (rental is null) return NotFound();
-        return Ok(rental);
-    }
-
-    [HttpPost]
-    public ActionResult<Rental> Create(Rental rental)
-    {
-        var customerExists = Customers.Any(c => c.Id == rental.CustomerId);
-        var carExists = Cars.Any(c => c.Id == rental.CarId);
-        if (!customerExists || !carExists)
+        public RentalController(
+            IRepository<Rental> rentalRepo,
+            IRepository<Car> carRepo,
+            IRepository<Customer> customerRepo,
+            IMapper mapper)
         {
-            return BadRequest("Invalid CustomerId or CarId.");
+            _rentalRepo = rentalRepo;
+            _carRepo = carRepo;
+            _customerRepo = customerRepo;
+            _mapper = mapper;
         }
 
-        rental.Id = Rentals.Count + 1;
-        rental.RentalDate = DateTime.UtcNow;
-        Rentals.Add(rental);
-        return CreatedAtAction(nameof(Get), new { id = rental.Id }, rental);
-    }
+        // GET: api/Rental
+        [HttpGet]
+        [Authorize]
+        public async Task<ActionResult<IEnumerable<RentalDto>>> GetAll()
+        {
+            var ents = await _rentalRepo.GetAllAsync();
+            return Ok(_mapper.Map<IEnumerable<RentalDto>>(ents));
+        }
 
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
-    {
-        var rental = Rentals.FirstOrDefault(r => r.Id == id);
-        if (rental is null) return NotFound();
+        // GET: api/Rental/5
+        [HttpGet("{id}")]
+        [Authorize]
+        public async Task<ActionResult<RentalDto>> Get(int id)
+        {
+            var ent = await _rentalRepo.GetByIdAsync(id);
+            if (ent == null) return NotFound();
+            return Ok(_mapper.Map<RentalDto>(ent));
+        }
 
-        Rentals.Remove(rental);
-        return NoContent();
+        // POST: api/Rental
+        [HttpPost]
+        [Authorize(Roles = "Admin,User")]
+        public async Task<ActionResult<RentalDto>> Create([FromBody] RentalCreateDto dto)
+        {
+            // sprawdź istnienie Car i Customer
+            if (await _carRepo.GetByIdAsync(dto.CarId) == null ||
+                await _customerRepo.GetByIdAsync(dto.CustomerId) == null)
+            {
+                return BadRequest("Invalid CarId or CustomerId");
+            }
+
+            var ent = _mapper.Map<Rental>(dto);
+            await _rentalRepo.AddAsync(ent);
+            var resultDto = _mapper.Map<RentalDto>(ent);
+            return CreatedAtAction(nameof(Get), new { id = ent.Id }, resultDto);
+        }
+
+        // PUT: api/Rental/5
+        [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Update(int id, [FromBody] RentalUpdateDto dto)
+        {
+            var ent = await _rentalRepo.GetByIdAsync(id);
+            if (ent == null) return NotFound();
+
+            _mapper.Map(dto, ent);
+            await _rentalRepo.UpdateAsync(ent);
+            return NoContent();
+        }
+
+        // DELETE: api/Rental/5
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var ent = await _rentalRepo.GetByIdAsync(id);
+            if (ent == null) return NotFound();
+
+            await _rentalRepo.DeleteAsync(ent);
+            return NoContent();
+        }
     }
 }

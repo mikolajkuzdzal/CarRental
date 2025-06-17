@@ -1,55 +1,52 @@
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\appsettings.Development.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\appsettings.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.staticwebassets.endpoints.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.exe
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.deps.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.runtimeconfig.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.pdb
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Application.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Domain.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Infrastructure.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Application.pdb
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Domain.pdb
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Infrastructure.pdb
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.csproj.AssemblyReference.cache
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.AssemblyInfoInputs.cache
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.AssemblyInfo.cs
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.csproj.CoreCompileInputs.cache
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.MvcApplicationPartsAssemblyInfo.cs
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.MvcApplicationPartsAssemblyInfo.cache
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\scopedcss\bundle\CarRental.API.styles.css
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets.build.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets.development.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets\msbuild.CarRental.API.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets\msbuild.CarRental.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CarRental.API.props
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarRental.API.props
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarRental.API.props
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRenta.BD7EB051.Up2Date
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\refint\CarRental.API.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.pdb
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.genruntimeconfig.cache
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\ref\CarRental.API.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.sourcelink.json
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-D:\Projekt zaliczeniowy\CarRental\CarRental.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.exe
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.deps.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.runtimeconfig.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.API.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Application.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Domain.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Infrastructure.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Infrastructure.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Application.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\bin\Debug\net8.0\CarRental.Domain.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.csproj.AssemblyReference.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.AssemblyInfoInputs.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.AssemblyInfo.cs
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.csproj.CoreCompileInputs.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.sourcelink.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets\msbuild.CarRental.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CarRental.API.props
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarRental.API.props
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarRental.API.props
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\scopedcss\bundle\CarRental.API.styles.css
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRenta.BD7EB051.Up2Date
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\refint\CarRental.API.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\CarRental.API.genruntimeconfig.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.API\obj\Debug\net8.0\ref\CarRental.API.dll

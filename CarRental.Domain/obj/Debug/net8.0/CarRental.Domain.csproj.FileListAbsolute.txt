@@ -11,3 +11,15 @@ D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Do
 D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\ref\CarRental.Domain.dll
 D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.sourcelink.json
 D:\Projekt zaliczeniowy\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.csproj.AssemblyReference.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\bin\Debug\net8.0\CarRental.Domain.deps.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\bin\Debug\net8.0\CarRental.Domain.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\bin\Debug\net8.0\CarRental.Domain.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.AssemblyInfoInputs.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.AssemblyInfo.cs
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.sourcelink.json
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\obj\Debug\net8.0\refint\CarRental.Domain.dll
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\obj\Debug\net8.0\CarRental.Domain.pdb
+C:\Users\Mikołaj\Source\Repos\mikolajkuzdzal\CarRental\CarRental.Domain\obj\Debug\net8.0\ref\CarRental.Domain.dll

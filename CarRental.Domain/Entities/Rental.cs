@@ -1,12 +1,20 @@
-﻿namespace CarRental.Domain.Entities;
-
-public class Rental
+﻿namespace CarRental.Domain.Entities
 {
-    public int Id { get; set; }
-    public int CustomerId { get; set; }
-    public int CarId { get; set; }
-    public DateTime RentalDate { get; set; }
+    public class Rental
+    {
+        public int Id { get; set; }
 
-    public Customer? Customer { get; set; }
-    public Car? Car { get; set; }
+        // najpierw klucze obce
+        public int CarId { get; set; }
+        public int CustomerId { get; set; }
+
+        // właściwości nawigacyjne
+        public Car Car { get; set; } = null!;
+        public Customer Customer { get; set; } = null!;
+
+        public DateTime RentalDate { get; set; }
+        public DateTime? ReturnDate { get; set; }
+
+        // inne pola...
+    }
 }
