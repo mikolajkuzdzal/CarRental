@@ -1,15 +1,16 @@
-﻿using AutoMapper;                                  // dla IMapper
-using CarRental.Application.DTOs;                  // Twoje DTO
-using CarRental.Application.Interfaces;            // IRepository<T>
-using CarRental.Domain.Entities;                   // Customer, Rental
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using AutoMapper;
+using CarRental.Application.DTOs;
+using CarRental.Application.Interfaces;
+using CarRental.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace CarRental.Web.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class CustomerController : ControllerBase
     {
         private readonly IRepository<Customer> _customerRepo;
@@ -27,17 +28,19 @@ namespace CarRental.Web.Controllers
         public async Task<ActionResult<IEnumerable<CustomerDto>>> GetAll()
         {
             var ents = await _customerRepo.GetAllAsync();
-            return Ok(_mapper.Map<IEnumerable<CustomerDto>>(ents));
+            var dtos = _mapper.Map<IEnumerable<CustomerDto>>(ents);
+            return Ok(dtos);
         }
 
         // GET: api/Customer/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         [Authorize]
         public async Task<ActionResult<CustomerDto>> Get(int id)
         {
             var ent = await _customerRepo.GetByIdAsync(id);
             if (ent == null) return NotFound();
-            return Ok(_mapper.Map<CustomerDto>(ent));
+            var dto = _mapper.Map<CustomerDto>(ent);
+            return Ok(dto);
         }
 
         // POST: api/Customer
@@ -47,15 +50,18 @@ namespace CarRental.Web.Controllers
         {
             var ent = _mapper.Map<Customer>(dto);
             await _customerRepo.AddAsync(ent);
+
             var resultDto = _mapper.Map<CustomerDto>(ent);
             return CreatedAtAction(nameof(Get), new { id = ent.Id }, resultDto);
         }
 
         // PUT: api/Customer/5
-        [HttpPut("{id}")]
+        [HttpPut("{id:int}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(int id, [FromBody] CustomerUpdateDto dto)
         {
+            if (id != dto.Id) return BadRequest("ID mismatch");
+
             var ent = await _customerRepo.GetByIdAsync(id);
             if (ent == null) return NotFound();
 
@@ -65,7 +71,7 @@ namespace CarRental.Web.Controllers
         }
 
         // DELETE: api/Customer/5
-        [HttpDelete("{id}")]
+        [HttpDelete("{id:int}")]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
