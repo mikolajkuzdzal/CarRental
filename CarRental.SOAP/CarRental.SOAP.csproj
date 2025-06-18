@@ -1,21 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
-	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
-	</PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
 
-	<ItemGroup>
-		<!-- CoreWCF -->
-		<PackageReference Include="CoreWCF.ConfigurationManager" Version="1.7.0" />
-		<PackageReference Include="CoreWCF.Http" Version="1.7.0" />
-		<PackageReference Include="CoreWCF.Primitives" Version="1.7.0" />
-	</ItemGroup>
+  <ItemGroup>
+    <!-- CoreWCF potrzebne do SOAP -->
+    <PackageReference Include="CoreWCF.ConfigurationManager" Version="1.7.0" />
+    <PackageReference Include="CoreWCF.Http"              Version="1.7.0" />
+    <PackageReference Include="CoreWCF.Primitives"        Version="1.7.0" />
 
-	<ItemGroup>
-		<!-- Potrzebne, bo usługa SOAP może korzystać z bazy i aplikacji -->
-		<ProjectReference Include="..\CarRental.Infrastructure\CarRental.Infrastructure.csproj" />
-		<ProjectReference Include="..\CarRental.Application\CarRental.Application.csproj" />
-		<ProjectReference Include="..\CarRental.Domain\CarRental.Domain.csproj" />
-	</ItemGroup>
+    <!-- EF Core InMemory, by móc wstrzyknąć CarRentalDbContext -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore"           Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory"  Version="8.0.0" />
+
+    <!-- AutoMapper DI -->
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Odwołania do Twoich warstw aplikacji -->
+    <ProjectReference Include="..\CarRental.Domain\CarRental.Domain.csproj" />
+    <ProjectReference Include="..\CarRental.Application\CarRental.Application.csproj" />
+    <ProjectReference Include="..\CarRental.Infrastructure\CarRental.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>

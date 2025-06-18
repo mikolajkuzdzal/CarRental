@@ -1,7 +1,7 @@
 ﻿# smoke-test.ps1
 
 # 1. Parametry
-$apiBase = "https://localhost:5001/api"    # dostosuj port jeśli inny
+$apiBase = "https://localhost:7098/api"    # dostosuj port jeśli inny
 $user     = "admin@yourdomain.com"         # istniejący użytkownik Admin
 $pass     = "YourPassword123!"
 

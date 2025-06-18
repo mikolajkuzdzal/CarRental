@@ -19,7 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental.Tests.", "CarRent
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{AE10FB52-9972-49CD-AD18-7CDE47E85173}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 		smoke-test.ps1 = smoke-test.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{B1009764-5903-4EE2-9772-68320562D2EE}"
+	ProjectSection(SolutionItems) = preProject
+		ci.yml = ci.yml
 	EndProjectSection
 EndProject
 Global
